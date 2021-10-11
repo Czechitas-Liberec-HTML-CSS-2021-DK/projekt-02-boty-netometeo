@@ -1,6 +1,5 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
-
 *, ::after, ::before { box-sizing: inherit; }
 
 body {
@@ -25,3 +24,80 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+html {
+background-color:#f5f5f5 ;
+}
+.zbozi {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 670px;
+  hight: 440px;
+  }
+
+.vizual {
+  padding: 30px;
+  width: 335px;
+  background: linear-gradient(#06d7c1, #50cc49);
+}
+
+.detaily {
+  width: 335px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    }
+
+.slogan {
+font-size: 16px;
+font-weight: 500;
+}  
+
+.zaruka {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.cena {
+  font-size: 28px;
+  font-weight: 500;
+  }
+  
+.produkt {
+  color: #959595;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.parametr {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+li.vybrana {
+  color: #f15f42;
+  border: 2px solid #f15f42;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.tlacitko {
+background-color: #f15f42;
+text-decoration: none;
+padding: 14px 25px;
+text-align: center;
+color: white;
+text-transform: uppercase;
+border-radius: 30px;
+}
