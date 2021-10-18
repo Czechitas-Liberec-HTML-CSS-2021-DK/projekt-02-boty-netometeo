@@ -26,8 +26,9 @@ body {
 /* ----- zde zacni psat vlastni css ----- */
 
 html {
-background-color:#f5f5f5 ;
+  background-color:#f5f5f5 ;
 }
+
 .zbozi {
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
@@ -35,6 +36,7 @@ background-color:#f5f5f5 ;
   min-width: 670px;
   min-height: 440px;
   padding: 4rem 8rem;
+  position: relative;
   }
 
 .vizual {
@@ -46,6 +48,7 @@ background-color:#f5f5f5 ;
   float: left;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
+  position: relative;
 }
 
 .detaily {
@@ -56,6 +59,7 @@ background-color:#f5f5f5 ;
   float: left;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+  position: relative;
 }
 
 h1 {
@@ -65,9 +69,10 @@ h1 {
 }
 
 .slogan {
-font-size: 16px;
-font-weight: 500;
-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 30px;
 }  
 
 .zaruka {
@@ -75,10 +80,11 @@ color: white;
   font-weight: 400;
 }
 .cenovka {
-text-align: right;
-color: white;
-position: relative;
-bottom: 30px;
+  text-align: right;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
 }
 
 .cena {
@@ -113,9 +119,10 @@ margin: 0.5rem;
 
 li.vybrana {
   color: #f15f42;
-  border: 2px solid #f15f42;
+  border: 1px solid #f15f42;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 30px;
+  padding: 5px;
 }
 
 .tlacitko {
@@ -126,9 +133,12 @@ li.vybrana {
   color: white;
   text-transform: uppercase;
   border-radius: 30px;
+  position: absolute;
+  left:30px;
+  bottom: 30px;
 }
 
 .popis {
-padding-bottom: 30px;
-border-bottom: 2px solid #06d7c1;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #06d7c1;
 }
